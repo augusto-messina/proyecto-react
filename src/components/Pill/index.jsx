@@ -1,3 +1,3 @@
-const Pill = ({ quantity }) => <samp className="pill">{quantity}</samp>
+const Pill = ( {quantity} ) => <span className='pill'>{ quantity }</span>;
 
-export default Pill
+export default Pill;
